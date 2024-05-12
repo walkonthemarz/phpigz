@@ -1,18 +1,20 @@
 {
-    "name": "kenny/pigz",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Kenny\\Pigz\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "walkonthemarz",
-            "email": "walkonthemarz@gmail.com"
-        }
-    ],
-    "require": {
-      "ext-posix": "*"
+  "name": "kenny/pigz",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Kenny\\Pigz\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "walkonthemarz",
+      "email": "walkonthemarz@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-posix": "*",
+    "amphp/process": "^2.0",
+    "amphp/byte-stream": "^2.1"
+  }
 }
